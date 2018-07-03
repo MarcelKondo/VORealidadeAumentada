@@ -1,0 +1,25 @@
+{
+	"FriendlyName" : "Augmented Unreality",
+	"Description": "Augmented reality support for Unreal Engine.",
+	"Category": "AR",
+
+	"CreatedBy": "Krzysztof Lis",
+	"CreatedByURL": "https://adynathos.net",
+	
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+
+	"Version": 10204,
+	"VersionName": "1.2.04",
+
+	"FileVersion": 3,
+
+	"Modules" :
+	[
+		{
+			"Name" : "AugmentedUnreality",
+			"Type" : "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	]
+}
