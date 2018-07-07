@@ -3,6 +3,7 @@
 #include "ArrayEncoderComponent.h"
 
 
+
 // Sets default values for this component's properties
 UArrayEncoderComponent::UArrayEncoderComponent()
 {
@@ -18,7 +19,7 @@ UArrayEncoderComponent::UArrayEncoderComponent()
 void UArrayEncoderComponent::BeginPlay()
 {
 	Super::BeginPlay();
-
+	
 	// ...
 	
 }
@@ -32,5 +33,3 @@ void UArrayEncoderComponent::TickComponent(float DeltaTime, ELevelTick TickType,
 	// ...
 }
 
-UFUNCTION(BlueprintCallable, Category = "Encoding")
-FString EncodeArray()
